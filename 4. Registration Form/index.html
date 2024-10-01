@@ -7,7 +7,42 @@
     <title>Login and Registration Form</title>
 </head>
 <body>
-    <h1>Login and Registration Form</h1>
     
+    <div class="hero">
+
+    <div class="form-box">
+
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+
+        <div class="social-icons">
+            <img src="images/fb.png">
+            <img src="images/tw.png">
+            <img src="images/gp.png">
+        </div>
+
+        <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="User ID" required>
+            <input type="text" class="input-field" placeholder="Enter password" required>
+            <input type="checkbox" class="checkbox"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+        <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="User ID" required>
+            <input type="email" class="input-field" placeholder="Email address"" required>
+            <input type="text" class="input-field" placeholder="Password" required>
+            <input type="checkbox" class="checkbox"><span>I agree to the terms and conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+
+
+        
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
